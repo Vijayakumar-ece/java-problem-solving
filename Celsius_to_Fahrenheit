@@ -1,0 +1,18 @@
+package day1;
+import java.util.*;
+public class celciustofah 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter celcius Value : ");
+		double celcius = sc.nextDouble();
+		
+		double fahrenheit = (celcius * 9.0/5.0) + 32.0;
+		System.out.println(celcius + " celcius is equal to " +fahrenheit + " fahrenheit");
+		sc.close();
+
+	}
+
+}
