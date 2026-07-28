@@ -1,0 +1,25 @@
+package day1;
+import java.util.*;
+public class gradecalculator 
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Mark: ");
+		int mark = sc.nextInt();
+		if(mark >=90)
+		{
+			System.out.println("A grade");
+		}
+		else if(mark >=75)
+		{
+			System.out.println("B grade");
+		}
+		else
+		{
+			System.out.println("C grade");
+		}
+        sc.close();
+	}
+}
